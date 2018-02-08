@@ -10,6 +10,7 @@ body {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
+    color: #777777;
 }
 
 .class1 {
@@ -23,9 +24,8 @@ body {
 }
 
 .section1 {
-    clear: both;
     float: left;
-    width: 495px;
+    width: 56%;
     padding: 60px;
     background: #ebebeb;
     overflow: auto;
@@ -55,11 +55,14 @@ p {
 
 aside {
     float: left;
-    width: 33%;
-    height: 60px;
+    width: 42%;
+    height: 50%;
     background: #ebebeb;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 19px;
+    /* margin-right: 10px; */
     text-align: center;
 }
 
+footer {
+    clear: both; 
+}
